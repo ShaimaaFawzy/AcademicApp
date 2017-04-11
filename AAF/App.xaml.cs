@@ -29,8 +29,7 @@ namespace AAF1
     sealed partial class App : Application
     {
         public static MobileServiceClient MobileService = new MobileServiceClient(
-"https://qesa.azure-mobile.net/",
-"yfmSOqQwBRXLDgzFDxbztdcJWyZqqS25"
+
 );
         /// <summary>
         /// Initializes the singleton application object.  This is the first line of authored code
